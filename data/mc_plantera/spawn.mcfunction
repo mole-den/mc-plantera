@@ -5,5 +5,9 @@ execute as @a[scores:{bulbspawn=1..}] at @s run summon minecraft:armor_stand ~ ~
 execute as @a[scores:{bulbspawn=1..}] at @s run summon minecraft:armor_stand ~ ~ ~ {Invisible:1,Invulnerable:1,CustomName:'[{"text":"ph3"}]',ArmorItems:[{},{},{},{id:moss_block,Count:1}],ArmorDropChances:[0F,0F,0F,0F]}
 execute as @a[scores:{bulbspawn=1..}] at @s run summon minecraft:armor_stand ~ ~ ~ {Invisible:1,Invulnerable:1,CustomName:'[{"text":"ph4"}]',ArmorItems:[{},{},{},{id:moss_block,Count:1}],ArmorDropChances:[0F,0F,0F,0F]}
 execute as @a[scores:{bulbspawn=1..}] at @s run summon minecraft:armor_stand ~ ~ ~ {Invisible:1,Invulnerable:1,CustomName:'[{"text":"ph5"}]',ArmorItems:[{},{},{},{id:moss_block,Count:1}],ArmorDropChances:[0F,0F,0F,0F]}
+execute as @a[scores:{bulbspawn=1..}] at @s run summon minecraft:guardian ~ ~ ~ {NoAI:1,Invisible:1,CustomName:'[{"text":"pa1"}]'}
+execute as @a[scores:{bulbspawn=1..}] at @s run summon minecraft:guardian ~ ~ ~ {NoAI:1,Invisible:1,CustomName:'[{"text":"pa2"}]'}
+execute as @a[scores:{bulbspawn=1..}] at @s run summon minecraft:guardian ~ ~ ~ {NoAI:1,Invisible:1,CustomName:'[{"text":"pa3"}]'}
+execute as @a[scores:{bulbspawn=1..}] at @s run summon minecraft:guardian ~ ~ ~ {NoAI:1,Invisible:1,CustomName:'[{"text":"pa4"}]'}
 execute as @e[type=vex,name="Plantera"] run effect give @s slowness 99999 2 true
 execute as @a[scores:{bulbspawn=1..}] run scoreboard players set @s bulbspawn 0
